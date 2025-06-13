@@ -3,7 +3,6 @@ import {
     categories,
     getTodo,
     selectedTodoId,
-    updateTodo,
   } from "./state";
   import { useState } from "preact/hooks";
 
@@ -52,12 +51,8 @@ import {
       
     }
   
-    function handleSubmit(e: Event) {
-      //if (selectedTodoId.value) {
-        //updateTodo(selectedTodoId.value, { quantity: quantity });
-      //} else {
-        addTodo(name, quantity, category);
-      //}
+    function handleSubmit() {
+      addTodo(name, quantity, category);
       setName("");
       setQuantity(1);
       setCategory("Other");
@@ -65,7 +60,7 @@ import {
 
     function handleSubmitEnter(e: KeyboardEvent) {
       if (e.key == 'Enter') {
-        handleSubmit(e);
+        handleSubmit();
       }
     }
   
