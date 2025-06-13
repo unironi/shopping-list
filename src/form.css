@@ -1,0 +1,19 @@
+  div#form {
+    width:100%;
+  }
+
+  .add {
+    display: flex;
+    margin-top: 16px;
+    margin-bottom: 16px;
+  }
+  
+  .add > input[type="text"]:nth-child(1) {
+    flex:1;
+  }
+
+  .add > input, .add > select {
+    width: 36px;
+  }
+  
+  

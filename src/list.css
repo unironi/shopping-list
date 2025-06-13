@@ -1,0 +1,17 @@
+div#list {
+    flex: 1;
+}
+
+div.category {
+  text-align: center;
+  padding:4px;
+  margin-bottom:8px;
+}
+
+/*span#status {
+  display: flex;
+  justify-content: center;
+}*/
+
+
+  

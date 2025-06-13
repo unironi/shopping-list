@@ -1,0 +1,12 @@
+.settings > button {
+    width: 50%
+    
+}
+
+.settings {
+    display: flex;
+    flex-direction: row;
+    gap: 8px;
+    width: 100%
+}
+  

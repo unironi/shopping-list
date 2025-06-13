@@ -1,0 +1,36 @@
+
+  div.grid {
+    display: flex;
+    gap: 8px;
+    flex-flow: wrap;
+    padding: 8px;
+    align-content: flex-start; 
+  }
+
+ .grid > button {
+    background: none;
+    height: 30px;
+    position:absolute;
+    top: 0;
+    right: 16px;
+  }
+  
+  div.grid > div {
+    width: 80px;
+  }
+
+  div.grid > div > p {
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+  }
+
+  .overlay {
+    z-index:2;
+    height: 100%;
+    width:100%;
+    backdrop-filter: blur(4px);
+    background-color: rgba(255, 255, 255, 0.8);
+    position:absolute;
+  }
+  

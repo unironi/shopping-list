@@ -1,0 +1,36 @@
+  div.todo {
+    margin: 8px;
+    padding: 4px;
+    background-color: lightgray;
+    display: flex;
+    align-items: center;
+    text-align: left;
+  }
+  
+  div.todo > span {
+    flex: 1;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+  }
+
+  div.todo > input[type="number"] {
+    width: 32px;
+  }
+
+  
+  /* 
+  :checked is a pseudo class  
+  + is "next sibling" selector 
+  the rule means: when checkbox is checked, render the 
+  text in the span next to it with a line-through it 
+  */
+  input:checked + span {
+    text-decoration: line-through;
+  }
+
+  input:checked + span + input[type="number"] {
+    display: none;
+  }
+  
+  
