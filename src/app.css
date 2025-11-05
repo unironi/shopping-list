@@ -11,6 +11,12 @@ div#main {
   display: flex;
   width:100%;
   flex-direction: column;
+  margin: 20px;
+  @media screen and (min-width: 768px) {
+    margin: 50px;
+  }
 }
+
+
 
 

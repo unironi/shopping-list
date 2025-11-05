@@ -6,14 +6,26 @@
     display: flex;
     margin-top: 16px;
     margin-bottom: 16px;
+    gap: 8px;
   }
   
   .add > input[type="text"]:nth-child(1) {
-    flex:1;
+    flex:10;
+    padding: 8px;
+    font-size:18px;
+    border-radius: 8px;
   }
 
-  .add > input, .add > select {
+  /* .add > input, .add > select {
     width: 36px;
+  } */
+
+  .add > select, .add > input[type="number"], .add > button {
+    flex:1;
+    font-size: 20px;
+    text-align: center;
+    border: 1px black solid;
+    border-radius: 8px;
   }
   
   

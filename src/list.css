@@ -4,8 +4,11 @@ div#list {
 
 div.category {
   text-align: center;
+  font-size:20px;
   padding:4px;
   margin-bottom:8px;
+  border-radius: 8px;
+  border: 2px black dotted;
 }
 
 /*span#status {
