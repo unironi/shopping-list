@@ -8,6 +8,7 @@
     align-items: center;
     text-align: left;
     font-size: 18px;
+    gap: 8px;
   }
   
   div.todo > span {
@@ -19,6 +20,9 @@
 
   div.todo > input[type="number"] {
     width: 32px;
+    padding:4px;
+    text-align: center;
+    font-size: 16px;
   }
 
   
